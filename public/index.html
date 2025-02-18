@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WooCommerce System Report Parser</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>WooCommerce System Report Parser</h1>
+    <p>Paste your report or drop your file in the textarea below.</p>
+    <div id="root">
+        <textarea id="reportInput" rows="10" cols="50" placeholder="Paste your report here or drop a file"></textarea>
+        <div>
+            <input type="checkbox" id="filterChecks" />
+            <label for="filterChecks">Show only sections and rows with check results</label>
+            <button id="toggleSections">Toggle all sections</button>
+        </div>
+        <div id="reportOutput"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
