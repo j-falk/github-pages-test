@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+}
+
+#reportInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#reportOutput {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h3 {
+    cursor: pointer;
+    background-color: #0073aa;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+    border-radius: 4px;
+}
+
+.section h3:hover {
+    background-color: #005177;
+}
+
+.section-content {
+    display: none;
+    margin-left: 20px;
+    padding: 10px;
+    border-left: 3px solid #0073aa;
+    background-color: #fff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+td {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Add classes related to checks */
+.notice {
+    color: blue;
+}
+.warning {
+    color: orange;
+}
+.error {
+    color: red;
+}
+.success {
+    color: green;
+}
+.default {
+    color: black;
+}
